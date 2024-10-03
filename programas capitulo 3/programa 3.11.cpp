@@ -7,7 +7,7 @@ int main(){//abre la funcion principal
  float cal;
  printf("ingresa la calificacion del alumno: ");
  scanf("%f", &cal);
- while (cal != -1);
+ while (cal != -1)
  {
      if(cal<4)
         r1++;
@@ -22,7 +22,7 @@ int main(){//abre la funcion principal
         r4++;
         else
         r5++;
- printf("Ingresa la calificación del alumno: ");
+ printf("Ingresa la calificacion del alumno: ");
  scanf("%f", &cal);
  }
  printf("\n0..3.99 = %i", r1);
